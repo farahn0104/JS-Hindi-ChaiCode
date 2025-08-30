@@ -10,10 +10,10 @@ inki copy hame milti actual reference nahi milta hai means agar main isme koi ch
 II. Reference (Non Primitive) :  
 Array, Object, functions
 
-*/
 
 const id = Symbol('123')
 const anotherId = Symbol('123')
+*/
 
 // console.log(id === anotherId); // false because both are a symbol data type which denotes a uniqueness.
 // console.log(typeof id); // symbol
@@ -21,6 +21,7 @@ const anotherId = Symbol('123')
 
 // Reference (Non Primitive Type)
 
+/* 
 const heros = ["Shaktiman","Hatim","Khali","Salman","Shahrukh","Amir",]
 const myObj = {
     name: 'Farhan Ansari',
@@ -35,4 +36,28 @@ console.log(typeof heros); // object
 console.log(typeof myObj); // object
 console.log(typeof myFunction); // function
 
+ */
+
+/* 
+Stack (Primitive)     : Copied Value milta hai 
+Heap  (Non-Primitive) : Reference milta hai original Value ka, 
+ */
+
+let myName = 'Farhan Ansari';
+
+let anotherName = myName;
+anotherName = 'Hamdan Ansari';
+
+// console.table([myName,anotherName]);
+
+let user = {
+    email:'user@gmail.com',
+    UPI: 'user@axl',
+    number: 7704800104
+}
+
+let user2 = user
+user2.email = 'hitesh@google.com'
+
+console.table({user,user2,});
 
