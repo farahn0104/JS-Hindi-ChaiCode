@@ -1,3 +1,4 @@
+/* 
 const name = "hitesh"
 const repoCount = 50
 
@@ -32,4 +33,15 @@ console.log(url.replace('%20', '-'))
 
 console.log(url.includes('sundar'))
 
-console.log(gameName.split('-'));
+console.log(url.split('hitesh'));
+*/
+
+// String Practice Questions
+
+
+
+
+
+
+
+
