@@ -1,4 +1,4 @@
- // const tinderUser = new Object(); // this is a Singleton object
+// const tinderUser = new Object(); // this is a Singleton object
 const user = {} // that is Non Singleton object
 
 user.id = '123abc'
@@ -100,7 +100,33 @@ const tinderUser = {
     name: 'farhan',
     email: 'farhan@gmail.com'
 }
-console.log(tinderUser.hasOwnProperty('email')); // true
+// console.log(tinderUser.hasOwnProperty('email')); // true
+
+
+ 
+// Object Destructring and JSON API
+
+
+const course = {
+    courseName: 'JS in Hindi',
+    price: 999,
+    courseInstructor: 'Hitesh'
+}
+const { courseName, price, courseInstructor: instructor } = course; // destructring 
+
+/* 
+console.log(courseName);
+console.log(instructor);
+console.log(price);
+*/
+
+/*
+JSON API 
+
+GitHub API URL: https://api.github.com/users/hiteshchoudhary
+famous website of api data : randomuser.me
+ */
+
 
 
 
