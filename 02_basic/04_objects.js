@@ -125,8 +125,4 @@ JSON API
 
 GitHub API URL: https://api.github.com/users/hiteshchoudhary
 famous website of api data : randomuser.me
- */
-
-
-
-
+*/
